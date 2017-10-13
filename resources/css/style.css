@@ -35,9 +35,6 @@ a:-webkit-any-link {
     text-decoration: underline;
 }
 
-div {
-
-}
 
 .container {
     top: 80px;
@@ -46,12 +43,49 @@ div {
     margin: 20px;
 }
 
+
 .large-column {
   width: 630px;
   display: flex;
   flex-flow: column;
   margin: 20px;
   border-style: solid;
+}
+
+
+.image-content-main-story {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  margin-top: 0;
+}
+
+.image-content-fall {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.image-content-camera {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.image-content-cat {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.text-image {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.text-image-main {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .medium-column {
@@ -62,6 +96,7 @@ div {
   border-style: solid;
 }
 
+
 .small-column {
   width: 240px;
   display: flex;
@@ -70,7 +105,14 @@ div {
   border-style: solid;
 }
 
-.large-column div, .medium-column div, .small-column div {
+.large-column div,
+.medium-column div,
+.small-column div {
     border-style: solid;
+}
 
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
